@@ -24,7 +24,7 @@ function fish_prompt
 	omf theme "$theme_to_enable"
 	
 
-	echo  (omf::em)"  ✔ $theme_to_enable successfully enabled.  "(omf::off) 	
+	echo  (omf::em)"✔ $theme_to_enable successfully enabled."(omf::off)
 	
 
 	## force omf to enable a new theme when fish source dotfiles (i.e. omf reload)
